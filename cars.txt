@@ -1,0 +1,18 @@
+Nome tabella: cars
+
+id: BIGINT - PRIMARY_KEY(NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+make: string
+model: string
+price: number
+matriculation: date
+transmission: string 
+fuel: string 
+mileage: number
+equipment: string
+body_shape: string
+power: number
+porters_number: number
+seats_number: number
+color: string
+paint: string
+interior-material: string
