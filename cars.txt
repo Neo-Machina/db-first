@@ -3,17 +3,17 @@ Nome tabella: cars
 id: BIGINT - PRIMARY_KEY(NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
 make: VARCHAR(30) - NOTNULL
 model: VARCHAR(30) - NOTNULL
-price: DECIMAL(11, 2) - NOTNULL
+price: DECIMAL(9, 2) - NOTNULL
 matriculation: YEAR - NULL
-transmission: VARCHAR(100) - NULL
-fuel: VARCHAR(100) - NULL
+transmission: VARCHAR(40) - NULL
+fuel: VARCHAR(20) - NULL
 mileage: MEDIUMINT - NOTNULL
 equipment: TEXT - NULL
-body_shape: VARCHAR(100) - NULL
+body_shape: VARCHAR(30) - NULL
 power: SMALLINT - NULL
 porters_number: TINYINT - NULL
 seats_number: TINYINT - NULL
-color: VARCHAR(200) - NULL
-paint: VARCHAR(50) - NULL
-interior-material: VARCHAR(100) - NULL
+color: VARCHAR(15) - NULL
+paint: VARCHAR(20) - NULL
+interior-material: VARCHAR(50) - NULL
 poster: TEXT - DEFAULT(https://mysite.com/cars/default_car.jpg)
